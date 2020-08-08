@@ -1,0 +1,77 @@
+html {
+  height: 100%;
+}
+body {
+  background-color: rgb(5, 5, 5);
+  background-image: url(images/hd1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1024px;
+}
+
+header {
+  height: 118px;
+  text-align: center;
+}
+
+nav {
+  background-color: rgba(255, 0, 0, 0.733);
+  /* height: 40px; */
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+main {
+  height: 400px;
+  text-align: center;
+  padding-top: 80px;
+  padding-right: 240px;
+  padding-left: 240px;
+}
+
+footer {
+  background-color: rgba(0, 128, 0, 0.726);
+  /* height: 100px; */
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* margin-top: 250px; */
+}
+
+h1 {
+  font-size: 84px;
+  color: white;
+  font-family: "Arial", "Helvetica", "sans-serif";
+}
+
+p {
+  font-size: 18px;
+  color: white;
+  font-family: "Arial", "Helvetica", "sans-serif";
+}
+
+a {
+  color: white;
+  font-family: "Arial", "Helvetica", "sans-serif";
+  /* text-decoration: none; */
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 15px;
+  font-style: initial;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+footer p {
+  font-size: 18px;
+  color: white;
+  font-family: "Arial", "Helvetica", "sans-serif";
+}
